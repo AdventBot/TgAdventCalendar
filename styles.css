@@ -1,0 +1,165 @@
+body {
+   font-family: 'Nunito Sans', sans-serif;
+   background-color: #1B3A1B;
+   cursor: url('free-icon-arrow-11067093.png'), auto;
+
+}
+
+.button {
+   background-color: #FFD700; 
+   border: none; 
+   color: #000000; 
+   padding: 15px 32px; 
+   text-align: center; 
+   text-decoration: none; 
+   font-weight: 700; 
+   display: inline-block; 
+   font-size: 16px; 
+   margin: 2px 1px;
+   margin-top: 50px; 
+   cursor: pointer; 
+   border-radius: 8px; 
+   transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; 
+}
+
+.button:hover {
+   background-color: #9b8400; 
+   transform: scale(1.09); 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.container, .container2, .container3 {
+   max-width: 1170px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #7E1F2A;
+   border-radius: 20px;
+   box-shadow: 0 0 10px #530710;
+}
+
+.gallery {
+   display: flex;
+   justify-content: center; /* Центрує зображення по горизонталі */
+   flex-wrap: wrap; /* Дозволяє обгортання зображень */
+   gap: 10px; /* Проміжок між зображеннями */
+}
+.box {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.photo {
+   width: 300px; /* Встановіть бажану ширину */
+   height: 400px; /* Встановіть бажану висоту */
+   overflow: hidden;
+   border: 5px solid #ccc; /* Обрамлення */
+   border-radius: 10px; /* Закруглені кути */
+   transition: transform 0.3s; /* Анімація */
+}
+
+.photo img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover; /* Зберігає співвідношення сторін */
+} 
+
+
+.photo:hover {
+   transform: scale(1.1); 
+}
+
+p, h1, h2, h3 {
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+   background: #7E1F2A;
+   color: #fff;
+   padding: 10px 0;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+footer {
+   text-align: center;
+   padding: 10px 0;
+   background: #1B3A1B;
+   color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.chatbot-section {
+   background-color: #f9f9f9; /* Світлий фон */
+   padding: 40px 20px; /* Внутрішні відступи */
+   text-align: center; /* Центрування тексту */
+   border-radius: 8px; /* Закруглені кути */
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тінь */
+   margin: 20px 0; /* Зовнішні відступи */
+}
+
+.chatbot-section h2 {
+   font-size: 24px; /* Розмір заголовка */
+   margin-bottom: 10px; /* Відступ знизу */
+}
+
+.chatbot-section p {
+   font-size: 16px; /* Розмір тексту */
+   margin-bottom: 20px; /* Відступ знизу */
+}
+
+.btn {
+   background-color: #007bff; /* Колір кнопки */
+   color: #fff; /* Колір тексту */
+   padding: 10px 20px; /* Внутрішні відступи кнопки */
+   border: none; /* Без обрамлення */
+   border-radius: 5px; /* Закруглені кути кнопки */
+   text-decoration: none; /* Без підкреслення */
+   transition: background-color 0.3s; /* Плавний перехід кольору */
+}
+
+.btn:hover {
+   background-color: #0056b3; /* Темніший колір при наведенні */
+}
+@media (max-width: 768px) {
+   .container, .container2, .container3 {
+       padding: 10px; /* Зменшити відступи на мобільних */
+   }
+   .photo {
+       width: 100%; /* Зображення займають всю ширину */
+       height: auto; /* Автоматичне збереження пропорцій */
+   }
+   nav ul {
+       display: block; /* Перемикання на вертикальне меню */
+       text-align: center; /* Центрування тексту */
+   }
+   nav ul li {
+       display: block; /* Кожен пункт меню на новому рядку */
+       margin: 10px 0; /* Відступи між пунктами */
+   }
+}
+img {
+   max-width: 100%;
+   height: auto; /* Зберігає пропорції зображення */
+}
